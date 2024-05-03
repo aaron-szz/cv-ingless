@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+background-color: rgb(0, 0, 0);
+}
+html{
+    font-size: 16px;
+}
+
+p{
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 43%;
+    margin-right: 43%;
+    background-color: brown;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+h4{
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+
+h5{
+    font-size: 1.15rem;
+}
+
+h6{
+    font-size: 1.05rem;
+}
+
+.column-41{
+    width: 25%;
+    float: right;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    background-color: black;
+    height: 10vh;
+}
+
+#header .english {
+    background-color: cornflowerblue;
+    color: black;
+    padding: 5px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.contacto {
+    background-color: red;
+}
+#header .download {
+    background-color: limegreen;
+    color: black;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 30px;
+    float: right;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#header .experencia {
+    background-color: rgb(31, 180, 210);
+    color: black;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 30px;
+    float: right;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.medio {
+    text-align: center;
+}
+#header .estudios {
+    background-color: rgb(194, 28, 209);
+    color: black;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 30px;
+    float: right;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#header .quiensoy {
+    background-color: rgb(223, 17, 82);
+    color: black;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 30px;
+    float: right;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#header .ph {
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+}
+
+#footer {
+    background-color: black;
+    height: 45vh;
+    color: white;
+}
+
+#footer .phone {
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+#footer .postal {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#footer .correu {
+    text-align: right;
+    margin-top: 30px;
+    padding-right: 10px;
+
+}
+
+.skills {
+    text-align: center;
+    color: white;
+}
+
+.yde {
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+.exp {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.last {
+    margin-bottom: 30px;
+}
+
+.fondo {
+    background-image: url(../img/Imagen-de-fondo-html.jpg);
+}
+
+.fondoestudis {
+    background-color: burlywood;
+}
+
+.mapa {
+    padding-bottom: 20px;
+    padding-left: 20%;
+    width: 90%;
+}
+
+p {
+    padding-left: 30px;
+    text-align: center;
+}
+
+.qui {
+    padding-right: 30px;
+    margin-top: 10%;
+}
+.est {
+    color: white;
+}
+
+.practiques {
+    border: 3px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+.pp {
+    color: rgb(255, 255, 255);
+    
+}
+
+.yo {
+    font-size: 200%;
+}
+.negro {
+    color: black;
+}
+
+.em {
+    color: white;
+}
+
+.martop {
+    padding-top: 10px;
+}
+
+.left {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.middle {
+    margin-top: 60px;
+}
+
+.foto {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+.youtube {
+    margin-left: 20%;
+    margin-bottom: 40px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Diseño de columnas */
+.column-1{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.column-2{
+    width: 50%;
+    float: left;
+}
+
+.column-3{
+    width: 33.33%;
+    float: left;
+}
+
+.column-4{
+    width: 25%;
+    float: left;
+}
+
+.column-5{
+    width: 20%;
+    float: left;
+}
+
+.column-6{
+    width: 16.66%;
+    float: left;
+}
+
+.column-75{
+    width: 75%;
+    float: left;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    h2 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .column-41 {
+        width: 100%;
+        float: none;
+    }
+    
+    .column-2,
+    .column-3,
+    .column-4,
+    .column-5,
+    .column-6,
+    .column-75 {
+        width: 100%;
+        float: none;
+    }
+    .mapa {
+        padding-left: 0;
+        width: 100%;
+    }
+}
